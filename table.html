@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Table</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <table>
+        <caption>Daily Schedule</caption>
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>8am - 11am</td>
+                <td>Coding Work</td>
+            </tr>
+            <tr>
+                <th scope="row">Noon</th>
+                <td>11am - 12pm</td>
+                <td>Lunch Time</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>12pm - 5pm</td>
+                <td>Meetings and Reviews</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All Other Times</td>
+                <td>Game Time</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">And this is all I do for the day</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

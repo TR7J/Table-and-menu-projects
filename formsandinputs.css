@@ -1,0 +1,10 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+h1{
+    border: 2px dashed #333;
+    font-size: 3rem;
+    padding: 1em;
+}
